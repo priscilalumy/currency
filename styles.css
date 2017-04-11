@@ -1,0 +1,33 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+label, select, input, button {
+	width: 70px;
+	margin-left: .6rem;
+}
+
+button {
+	font-size: .9rem;
+}
+
+.view {
+	width: 500px;
+	height: 150px;
+	margin-top: 1rem;
+	margin-left: .5rem;
+	border: 1px solid #aaa;
+	background-color: #ccc;
+}
+
+p {
+	font-size: .9rem;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Currency Converter</h1>
+	<div class="select">
+		<label>Amount:</label>
+		<input id="input_amount" type="text">
+		<label>From:</label>
+		<select id="convert_from" name="From">
+			<option id="from_0"></option>
+			<option id="from_1">USD</option>
+			<option id="from_2">CAD</option>
+			<option id="from_3">GBP</option>
+			<option id="from_4">BRL</option>
+			<option id="from_5">JPY</option>
+		</select>
+		<label>to:</label>
+		<select id="convert_to" name="To">
+			<option id="to_0"></option>
+			<option id="to_1">USD</option>
+			<option id="to_2">CAD</option>
+			<option id="to_3">GBP</option>
+			<option id="to_4">BRL</option>
+			<option id="to_5">JPY</option>
+		</select>
+		<button id="bt_convert" type="button">Convert</button>
+	</div>
+
+	<div class="view" id="view_box">
+		
+	</div>
+
+	<div>
+		<p>Reference:</p>
+		<p>USD = US Dollar</p>
+		<p>CAD = Canadian Dollar</p>
+		<p>GPB = British Pound</p>
+		<p>BRL = Brazilian Real</p>
+		<p>JPY = Japanese Yen</p>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
